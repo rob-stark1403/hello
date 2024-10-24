@@ -1,4 +1,4 @@
-CODE:
+# CODE:
 import random
 
 # Helper function to check if a number is prime

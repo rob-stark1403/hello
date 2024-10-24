@@ -1,0 +1,23 @@
+Aim:  
+Write a Java/Python program to implement the AES algorithm.
+
+Theory:  
+AES (Advanced Encryption Standard) is a widely-used encryption method that ensures data security by converting readable data (plaintext) into unreadable data (ciphertext). It was developed by cryptographers Joan Daemen and Vincent Rijmen and was adopted in 2001 to replace the older DES encryption.
+
+Key Features:
+- Symmetric Key: AES uses the same key for both encryption and decryption.
+- Block Cipher: It works on blocks of 16 bytes (128 bits).
+- Key Sizes: AES supports key lengths of 128, 192, and 256 bits. The larger the key, the more secure it is.
+
+Encryption Process:
+AES goes through several steps:
+1. Key Expansion: Expands the key for use in different rounds.
+2. Initial Round: XORs the input block with the key.
+3. Main Rounds: Includes operations like SubBytes, ShiftRows, MixColumns, and AddRoundKey to scramble data.
+4. Final Round: Similar to main rounds but skips MixColumns.
+
+Decryption:
+Decryption follows the reverse steps of encryption using the same key.
+
+Conclusion:
+AES is a secure and efficient encryption method used in many applications like secure communication and file encryption.

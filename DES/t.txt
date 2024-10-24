@@ -1,0 +1,40 @@
+Theory: DES Algorithm (Batch B)
+
+The Data Encryption Standard (DES) is a symmetric key encryption algorithm that was widely used for securing sensitive data. DES was developed in the 1970s by IBM and adopted by the U.S. National Institute of Standards and Technology (NIST) as a federal standard for encryption in 1977. Although it has since been replaced by more secure algorithms like AES, DES was an important step in the evolution of cryptography.
+
+Key Features:
+Symmetric Key Algorithm: DES uses the same key for both encryption and decryption, making it simpler to implement but requiring secure key management.
+
+Block Cipher: DES operates on blocks of data that are 64 bits (8 bytes) in size. It processes these blocks individually, which means large messages are divided into smaller 64-bit chunks before encryption.
+
+Key Size: DES uses a 56-bit key (though it is often represented as 64 bits, the remaining 8 bits are used for parity). The key size determines the complexity and security of the encryption.
+
+Encryption Process:
+The DES encryption process is based on 16 rounds of transformation. The plaintext is first divided into 64-bit blocks and processed using the following steps:
+
+Initial Permutation (IP): The input block is rearranged using a fixed table of permutations.
+
+Key Expansion: The 56-bit key is divided into 16 subkeys, one for each round of encryption.
+
+Rounds: Each round consists of several operations:
+
+Expansion: The right half of the block is expanded from 32 to 48 bits.
+S-Box Substitution: The expanded right half undergoes substitution using predefined tables (S-boxes), transforming it into a 32-bit output.
+Permutation: The output is permuted and XORed with the left half of the block.
+Swap: The left and right halves are swapped.
+Final Permutation (FP): After 16 rounds, the halves are combined and another permutation is applied to produce the final ciphertext.
+
+Decryption Process:
+The decryption process is the reverse of encryption. It involves applying the same 16 rounds in reverse order, using the same keys in reverse sequence to recover the original plaintext.
+
+Security:
+DES was considered secure when it was introduced, but due to advancements in computing power, its 56-bit key size is now vulnerable to brute force attacks. For this reason, it has largely been replaced by more secure algorithms like AES and 3DES (Triple DES), which performs DES encryption three times for added security.
+
+Common Use Cases:
+Despite being outdated, DES was widely used in:
+
+Banking systems for encrypting financial transactions,
+Smart cards for securing access,
+Data protection in various legacy systems.
+Conclusion:
+In this experiment, we successfully implemented the DES algorithm, demonstrating how encryption and decryption are performed using symmetric keys. While DES has been superseded by stronger algorithms, it remains a key milestone in the development of modern cryptography.
