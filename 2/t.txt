@@ -1,0 +1,18 @@
+Aim: Implementation of a product cipher using Substitution and Transposition ciphers
+
+Theory:
+
+A substitution cipher is a method of encrypting by which units of plaintext are replaced with cipher text, according to a fixed system; the "units" may be single letters (the most common), pairs of letters, triplets of letters, mixtures of the above, and so forth. The receiver deciphers the text by performing the inverse substitution.
+
+A transposition cipher is a method of encryption by which the positions held by units of plaintext (which are commonly characters or groups of characters) are shifted according to a regular system, so that the cipher text constitutes a permutation of the plaintext. That is, the order of the units is changed (the plaintext is reordered). Mathematically, a bijective function is used on the characters' positions to encrypt and an inverse function to decrypt.
+
+In cryptography, a product cipher combines two or more transformations in a manner intending that the resulting cipher is more secure than the individual components to make it resistant to cryptanalysis. The product cipher combines a sequence of simple transformations such as substitution (S-box), permutation (P-box), and modular arithmetic.
+
+EXAMPLE : 
+Plaintext: FROM CODE
+Caesar Shift Number: FROM CODE
+Columnar Key: FROM CODE
+
+
+Conclusion : 
+In this experiment, we implemented a product cipher by first encrypting a plaintext message using the Caesar substitution cipher, followed by encrypting the result using the Columnar Transposition cipher. This combination enhances the security of the encrypted message by applying multiple layers of encryption techniques.

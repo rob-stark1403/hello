@@ -1,0 +1,18 @@
+### Introduction to Nmap  
+Nmap (Network Mapper) is a widely-used open-source tool for network discovery and security auditing. It helps identify devices, open ports, running services, and potential vulnerabilities, making it essential for network administrators and security professionals.
+
+### Scanning Open Ports  
+Open ports allow communication between devices over a network. Nmap scans these ports to identify services and assess whether they are vulnerable to attacks.
+
+### OS Fingerprinting  
+OS fingerprinting determines the operating system of a target machine by analyzing network responses. Nmap helps identify OS versions to uncover potential security risks.
+
+### Ping Scan  
+Ping scans detect active devices on a network by sending ICMP Echo Requests. This provides a quick overview of live hosts.
+
+### TCP and UDP Port Scanning  
+- **TCP Scanning**: Nmap checks for services on TCP ports, identifying services like HTTP or FTP.  
+- **UDP Scanning**: Nmap scans UDP ports to discover services like DNS or DHCP, although it is more challenging due to the connectionless nature of UDP.
+
+### Conclusion  
+Nmap is a powerful tool for network analysis, offering various scanning methods to detect vulnerabilities, active devices, and services, helping administrators maintain secure systems.

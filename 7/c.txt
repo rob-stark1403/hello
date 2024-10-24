@@ -1,0 +1,9 @@
+COMMANDS:
+nslookup www.flipkart.com
+whois www.flipkart.com
+traceroute 
+Ipconfig
+ipconfig /all
+ping www.facebook.com 
+tracert google.com
+netstat -an

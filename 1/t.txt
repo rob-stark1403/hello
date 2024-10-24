@@ -1,0 +1,23 @@
+In a mono-alphabetic substitution cipher, each letter in the plaintext is replaced by another fixed letter in the ciphertext. Frequency analysis exploits the fact that certain letters in any language (like E, T, A in English) occur more often than others.
+Steps:
+1.Count Frequencies: Find the frequency of each letter in the ciphertext.
+2.Match with Common Letters: Compare the most frequent ciphertext letters with common English letters (e.g., E, T).
+3.Substitute and Guess: Make educated guesses for common letters and use context to fill in the remaining letters.
+
+Example:
+Ciphertext:
+XLMW MW XLMRO WLMJ XS YRHIVXMRK.
+
+M might be E, X might be T (based on frequency).
+Partial decryption:
+TLEW EW TLERO WLEJ TS YRHIVXMRK.
+
+With further substitutions, it decodes to:
+THIS IS THERE CODE TO INTERCEPTING.
+
+Thus, the message is "THIS IS THEIR CODE TO INTERCEPTING."
+
+Frequency analysis makes breaking this cipher easy by leveraging letter patterns!
+
+Conclusion
+Frequency analysis is a powerful method for breaking mono-alphabetic substitution ciphers by exploiting the predictable nature of letter frequencies in any language. This technique requires patience and pattern recognition, but it can be highly effective in decrypting such classical ciphers.

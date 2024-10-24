@@ -1,0 +1,17 @@
+Wireshark
+Wireshark is a powerful network analysis tool used to capture and analyze network traffic in real-time. It operates in both promiscuous mode (captures all traffic on the network) and non-promiscuous mode (captures only traffic to/from the local machine).
+
+
+Promiscuous vs Non-Promiscuous Mode
+Promiscuous Mode: Captures all packets on the network interface, regardless of their destination.
+Non-Promiscuous Mode: Captures only packets that are destined for or originated from the local machine.
+
+Filtering Packets
+Wireshark allows filtering of captured packets based on various criteria like protocol, IP address, and port numbers:
+
+Protocol filter: http (filters HTTP traffic).
+IP address filter: ip.addr == 192.168.1.1 (filters traffic to/from a specific IP).
+Port number filter: tcp.port == 80 (filters HTTP traffic on port 80).
+
+CONCLUSION:
+Wireshark effectively captures and analyzes network traffic, offering insights in both promiscuous and non-promiscuous modes. By applying various filters, users can isolate specific traffic for deeper analysis, making it a valuable tool for network diagnostics and security monitoring.

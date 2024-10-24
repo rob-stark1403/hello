@@ -1,0 +1,34 @@
+
+AIM: Study the use of network reconnaissance tools like WHOIS, dig, traceroute, nslookup to gather information about networks and domain registrars.
+
+Use of network reconnaissance tools:
+
+COMMANDS:
+1. nslookup www.flipkart.com
+   - Retrieves the IP address of the domain 'www.flipkart.com'.
+   
+2. whois www.flipkart.com
+   - Provides domain ownership and registration details for 'www.flipkart.com'.
+   
+3. traceroute
+   - Traces the route packets take from your machine to the destination network.
+   
+4. ipconfig
+   - Displays basic network configuration details of the system.
+   
+5. ipconfig /all
+   - Shows detailed network configuration, including MAC addresses, DNS, and DHCP info.
+   
+6. ping www.facebook.com
+   - Tests network connectivity and measures round-trip time to 'www.facebook.com'.
+   
+7. tracert google.com
+   - Traces and displays the path packets take to reach 'google.com'.
+
+
+Network Reconnaissance Tools Information:
+
+1. WHOIS: A tool used to gather registration information about domain names, including details like domain owners, registration dates, and expiration dates.
+2. Nslookup: A command-line tool used to query Domain Name System (DNS) to get domain name or IP address mappings.
+3. Traceroute: A tool used to trace the path that data packets take to reach a specific IP or domain, helping to identify bottlenecks or routing issues.
+4. Ping: A tool used to check the availability of a network host and measure the round-trip time for messages sent from the host to the destination and back.

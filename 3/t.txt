@@ -1,0 +1,25 @@
+Cryptanalysis involves breaking cryptographic systems to decode encrypted data without a key. It identifies weaknesses in encryption techniques to access hidden information.
+
+The Playfair cipher, proposed in 1889, is a symmetric encryption method that encrypts digraphs (letter pairs) using a 5x5 key matrix. One letter (usually J) is omitted, and it falls under digraph substitution ciphers.
+
+Advantages:
+Complicates cryptanalysis
+Resists brute force attacks
+Easy substitution
+Limitations:
+Only 25 letters
+No numeric, special, or media file support
+Playfair Cipher Rules:
+Prepare Plaintext: Split into digraphs, add "Z" if odd letters, replace repeating letters with "X."
+Key Matrix: Create a 5x5 matrix using a keyword and remaining letters of the alphabet.
+Encryption:
+Same Row: Replace each letter with the letter immediately to its right. Wrap around to the start of the row if necessary.
+Same Column: Replace each letter with the letter immediately below it. Wrap around to the top of the column if necessary.
+Different Row and Column: Replace each letter with the letter in the same row but in the column of the other letter of the digraph.
+
+Decryption reverses these steps.
+
+Example : FROM CODE
+
+CONCLUSION : 
+We learned how to decrypt encoded messages by reversing the encryption process. This exercise helps in understanding the mechanics of substitution ciphers and the importance of key management in cryptographic systems.

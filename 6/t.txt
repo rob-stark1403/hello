@@ -1,0 +1,18 @@
+The RSA cryptosystem, invented in 1977 by Rivest, Shamir, and Adleman, is a public-key cryptosystem used for secure data transmission. It relies on the difficulty of factoring large composite numbers, allowing for encryption and digital signatures, ensuring secure communication and authentication.
+
+Steps in RSA Algorithm:
+Key Generation:
+
+1. Select two large primes p and q.
+2. Compute n = p * q.
+3. Calculate φ(n) = (p - 1) * (q - 1).
+4. Choose a public exponent e (usually 65537).
+5. Calculate the private key d, the modular inverse of e modulo φ(n).
+
+Encryption:
+
+Ciphertext C = M^e mod n (where M is the plaintext).
+
+Decryption:
+
+Plaintext M = C^d mod n (using the private key).

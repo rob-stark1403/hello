@@ -1,0 +1,27 @@
+Theory : 
+
+The Vigenère cipher is a classical encryption method that uses polyalphabetic substitution to enhance security over simple substitution ciphers. It employs a repeating keyword to select different Caesar ciphers for encrypting each letter of the plaintext, using a Vigenère square (or table).
+
+The Vigenère square is a 26x26 table of alphabetic characters. Each row represents a different Caesar cipher shifted cyclically to the left. For instance:
+The first row starts with `A` and progresses to `Z`.
+The second row starts with `B`, followed by `C`, and so on.
+This pattern continues for all 26 rows, each shifted by one position relative to the previous row.
+
+Encryption Process
+1.Key Preparation: Repeat or truncate the keyword to match the length of the plaintext. This keyword determines which row of the Vigenère square is used for each letter.
+
+2.Substitution Using Vigenère Square:
+a)For each letter in the plaintext, find the intersection in the Vigenère square where the row corresponding to the key letter and the column corresponding to the plaintext letter meet. This intersection provides the encrypted letter.
+b)The row in the Vigenère square used for substitution is based on the letter from the repeated keyword. For example, if the keyword letter is 'C', use the third row of the table.
+
+Decryption Process
+Key Alignment: Align the repeating keyword with the ciphertext and reverse the process.
+
+Rules
+Repeating Key: The keyword is repeated to cover the length of the plaintext.
+Case Insensitivity: The cipher ignores letter case, treating uppercase and lowercase letters equivalently.
+Alphabetic Substitution: The Vigenère square is used to perform substitution based on the shifted alphabets.
+Cyclic Nature: Both encryption and decryption are cyclic, dependent on the repeating keyword.
+
+Conclusion :
+The Vigenère cipher uses a repeating keyword to create a more secure encryption than simple substitution ciphers. It can be understood and applied using either a Vigenère square or a mathematical formula.
